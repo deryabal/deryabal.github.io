@@ -1,0 +1,151 @@
+/*
+d2 style
+*/
+
+body {
+	background-color: #000000;
+	background-image: url(images/bg1.jpg);
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	cursor: url(hand.png), auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@font-face {
+	font-family: Exocet;
+	src: url('Exocet.ttf');
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.level {
+	font-family: Exocet, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #928A70;
+	text-shadow: -1px 0 #25231c, 0 1px #25231c, 1px 0 #25231c, 0 -1px #25231c;
+}
+
+.items {
+	font-family: Exocet, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #928A70;
+}
+
+.monsters {
+	cursor: crosshair;
+}
+
+.progress {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: none;
+	color: #000000;
+	text-align: center;
+	overflow: hidden;
+	width: 0px;
+	height: 10px;
+	background-color: #FFF88B;
+	background-image: url(images/progress.gif);
+}
+
+.icerik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: none;
+	color: #3A3229;
+	line-height: 16px;
+}
+
+.icerik a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: none;
+	color: #6F6D4B;
+	line-height: 16px;
+	text-decoration: underline;
+}
+
+.icerik a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: none;
+	color: #6F6D4B;
+	line-height: 16px;
+	text-decoration: underline;
+}
+
+.icerik a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: none;
+	color: #6F6D4B;
+	line-height: 16px;
+	text-decoration: underline;
+}
+
+.sure {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #928A70;
+}
+
+audio {
+	display: none;
+}
+
+button {
+	color: #928A70;
+	width: 25px;
+	height: 18px;
+	padding: 0;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	opacity: 1;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+}
+
+button.fade:hover {
+	opacity: 0.5;
+}
+
+.fade {
+	opacity: 1;
+	top: 0;
+	left: 0;
+	background: #000000;
+}
+
+.fa-volume-up {
+	content: url(images/volume-up2.png);
+	width: 18px;
+	height: 18px;
+}
+
+.fa-volume-mute {
+	content: url(images/volume-mute2.png);
+	width: 18px;
+	height: 18px;
+}
