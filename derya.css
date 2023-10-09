@@ -169,6 +169,18 @@ a:hover {
 	background-image: url(images/poe2.png);
 }
 
+#discord {
+	margin: 0 auto;
+	width: 23px;
+	height: 17px;
+	transition: background-image 1s ease-in-out;
+	background-image: url(images/discord1.png);
+}
+
+#discord:hover {
+	background-image: url(images/discord2.png);
+}
+
 /*
 popup
 */
